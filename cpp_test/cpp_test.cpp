@@ -10,6 +10,10 @@
 
 using namespace std;
 
+//Function declaring
+Template<class T>
+void InitArray(T &array, int size);
+
 // string & test(string &str1, const string &str2);
 
 int main(int argc, char** argv){
@@ -25,8 +29,17 @@ int main(int argc, char** argv){
 	time(&retime);
 	localtime_s(&tdate, &retime);
 	cout << tdate.tm_hour << endl;
-	cout << atoi(atoint) << endl; 
+	cout << atoi(atoint) << endl;
 	cout << today << endl;
 	cout << (int)chick << "," << (int)couple << endl;
 	return 0;
+}
+
+Template<class T>
+void InitArray(T &array, int size)
+{
+	for(int i = 0; i < size; i++)
+	{
+		array[i] = '\0';
+	}
 }
