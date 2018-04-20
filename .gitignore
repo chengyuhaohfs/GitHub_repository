@@ -1,0 +1,11 @@
+
+*.opensdf
+*.sdf
+*.tlog
+*.obj
+*.suo
+cpp_test/Resource.aps
+cpp_test/ipch/cpp_test-f9d24e16/cpp_test-602f856e.ipch
+cpp_test/Resource.aps
+cpp_test/Debug/vc110.pdb
+*.suo
