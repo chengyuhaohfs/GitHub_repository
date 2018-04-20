@@ -54,8 +54,11 @@ int main(int argc, char** argv) {
 	using namespace std;
 	Student hfs("hfs");
 	valarray<double> scores(5.0, 5);
-	for(int i = 0; i < 5; i++){
-//		scores[i] = i + i * i;
+	scores.resize(6, 9.8);
+	scores[5] = 9.9;
+	scores.shift(3);
+/*	cout << "the size of valarray is " << scores.size() << endl;*/
+	for(int i = 0; i < (int)scores.size(); i++){
 		cout << scores[i] << ", ";
 	}
 	cout << endl;
