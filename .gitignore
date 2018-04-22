@@ -17,6 +17,12 @@ cpp_test/Debug/vc110.pdb
 *.pdb
 *.res
 *.idb
+/cpp_test/.vs
+/cpp_test/Debug
 /cpp_test/.vs/cpp_test/v15
+/cpp_test/Debug
+/use_mfc/.vs
+/use_mfc/Debug
 /use_mfc/.vs/use_mfc/v15/ipch/AutoPCH
 /use_mfc/.vs/use_mfc/v15/Browse.VC.db
+/use_mfc/.vs/use_mfc/v15/Browse.VC.opendb
