@@ -80,11 +80,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CMyFile.cpp" />
     <ClCompile Include="MyString.cpp" />
     <ClCompile Include="useMfc.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CMyFile.h" />
     <ClInclude Include="MyString.h" />
+    <ClInclude Include="stfafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

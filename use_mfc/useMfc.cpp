@@ -1,6 +1,5 @@
-#include "afxwin.h"
+#include "stfafx.h"
 #include "iostream"
-#include "MyString.h"
 
 using namespace std;
 
