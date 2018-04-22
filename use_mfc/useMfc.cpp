@@ -17,6 +17,9 @@ int main(int argc, char** argv)
 	csArray.RemoveAll();
 	imystr.SplitStr(cstr, L",", csArray);
 
+	CString csFind = L"";
+	imystr.FindStr(cstr, L"hu,", L",", csFind);
+
 	cout << "hello world" << endl;
 
 	return 1;

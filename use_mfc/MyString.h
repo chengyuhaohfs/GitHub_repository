@@ -7,7 +7,8 @@ class CMyString
 public:
 	CMyString(void);
 	~CMyString(void);
-	BOOL SplitStr(CString cstr, WCHAR* mark, CStringArray& csArray);
+	BOOL SplitStr(CString cstr, CString mark, CStringArray& csArray);
+	BOOL FindStr(CString cstr, CString cs_start, CString cs_end, CString& cs_strget);
 };
 
 #ifndef uint

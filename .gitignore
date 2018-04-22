@@ -17,3 +17,6 @@ cpp_test/Debug/vc110.pdb
 *.pdb
 *.res
 *.idb
+/cpp_test/.vs/cpp_test/v15
+/use_mfc/.vs/use_mfc/v15/ipch/AutoPCH
+/use_mfc/.vs/use_mfc/v15/Browse.VC.db
