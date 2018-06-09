@@ -3,6 +3,7 @@
 #include "string"
 #include "memory"
 #include "stdafx.h"
+#include "vector"
 
 typedef std::valarray<double> ArrayDb;
 
@@ -65,5 +66,12 @@ int main(int argc, char** argv) {
 	cout << hfs.sum() << endl;
 
 	cout << pow(2, 3) << endl;
+
+	vector<string> str{ "010-12345678", "0319-9876543", "021-123456789" };
+	for (string st : str)
+	{
+		cout << st << endl;
+	}
+
 	return 0;
 }
