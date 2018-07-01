@@ -27,3 +27,7 @@ cpp_test/Debug/vc110.pdb
 /use_mfc/.vs/use_mfc/v15/Browse.VC.db
 /use_mfc/.vs/use_mfc/v15/Browse.VC.opendb
 use_mfc/use_mfc.vcxproj.filters
+/.vscode
+/winConsole/.vs
+/winConsole/bin
+/winConsole/obj
